@@ -1,0 +1,17 @@
+{
+  "name": "nodestardy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gaoji": "export NODE_ENV=development; node ./program/gaojibiancheng/10/server_lifecycle",
+    "chartR": "node ./program/chartRoom/server",
+    "koaT": "node ./program/koa/compose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.2.0"
+  }
+}
